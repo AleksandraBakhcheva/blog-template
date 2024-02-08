@@ -1,4 +1,4 @@
-@import url("_vars.css");
+@import "./_vars.css";
 
 body {
   max-width: 1500px;
