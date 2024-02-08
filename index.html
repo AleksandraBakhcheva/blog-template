@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
+  <title>HomePage - Blog</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <a href="index.html" class="header__logo">
+          <h1>Blog</h1>
+        </a>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="index.html" class="menu__link active">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="article.html" class="menu__link">Article</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="home">
+      <div class="home__sections">
+        <div class="home__main-slider main-slider swiper">
+          <div class="main-slider__wrapper swiper-wrapper">
+            <div class="main-slider__slide swiper-slide">
+              <img class="main-slider__bg" src="images/main-slider/01.jpg" alt="slider-image" />
+              <div class="main-slider__container">
+                <a href="#" class="main-slider__category category">Adventure</a>
+                <h2 class="main-slider__title title">Terrawatch: glacial erosion creates higher mountains.</h2>
+                <div class="main-slider__body">
+                  <div class="main__slider__date">May 5, 2023</div>
+                  <div class="main-slider__text text">
+                    <p>Would Alaska’s Mount Denali – the highest peak in the US – be as tall if it was situated on the
+                      equator instead? Might the Himalayas be even taller if an ice age took hold?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-slider__slide swiper-slide">
+              <img class="main-slider__bg" src="images/main-slider/02.jpg" alt="slider-image" />
+              <div class="main-slider__container">
+                <a href="#" class="main-slider__category category">Travel</a>
+                <h2 class="main-slider__title title">Top 10 national and state parks in France.</h2>
+                <div class="main-slider__body">
+                  <div class="main__slider__date">June 8, 2022</div>
+                  <div class="main-slider__text text">
+                    <p>It's got Zion, it's got Canyonlands … Utah has so many amazing parks that busy Bryce and the
+                      Arches don't even make the cut. Here's our guide for the best places to escape the crowds.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="main-slider__slide swiper-slide">
+              <img class="main-slider__bg" src="images/main-slider/03.jpg" alt="slider-image" />
+              <div class="main-slider__container">
+                <a href="#" class="main-slider__category category">Gardening</a>
+                <h2 class="main-slider__title title">Flowers ‘giving up’ on scarce insects and evolving to
+                  self-pollinate, say scientists.</h2>
+                <div class="main-slider__body">
+                  <div class="main__slider__date">July 22, 2022</div>
+                  <div class="main-slider__text text">
+                    <p>French wild pansies are producing smaller flowers and less nectar than 20 to 30 years ago in
+                      ‘startling’ act of evolution, study shows.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main-slider__bullets bullets">
+            <div class="bullets__container">
+              <div class="bullets__items"></div>
+            </div>
+          </div>
+        </div>
+        <section class="home__popular popular">
+          <div class="popular__container">
+            <div data-item class="popular__header">
+              <h2 class="popular__title title title_dark">Popular topics</h2>
+              <nav class="popular__nav nav-popular">
+                <button type="button" class="nav-popular__item active">All</button>
+                <button type="button" class="nav-popular__item">Technology</button>
+                <button type="button" class="nav-popular__item">Adventure</button>
+                <button type="button" class="nav-popular__item">Travel</button>
+                <button type="button" class="nav-popular__item">Fashion</button>
+              </nav>
+            </div>
+            <div class="popular__content">
+              <div class="popular__tab active">
+                <div class="popular__items">
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Travel</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/01.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">June 14, 2021</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Extreme adventure at the edge of the word: sail and ski in Norway
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>There are few more thrilling places to ski tour than the Lyngen Alps, a 55-mile chain of peaks
+                        that punctuates Norway’s fragmented northerly fringes.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Technology</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/02.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">August 11, 2023</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Robot trained to read braille at twice the speed of humans
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Researchers have developed a robotic sensor that incorporates artificial intelligence
+                        techniques to read braille at speeds roughly double that of most human readers.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Adventure</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/03.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">May 04, 2022</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Six of the best adventures in New Zealand, from bouldering to bungy jumps
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Whether you prefer a stomach-dropping free fall or a calf-burning rock ascent, New Zealand has
+                        no shortage of hair-raising adventures for those with a head for heights.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Fashion</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/04.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">September 29, 2023</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Refy cracked TikTok beauty. Next up — fashion
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Through TikTok, Jess Hunt and Jenna Meek catapulted their beauty brand into the consciousness
+                        of Gen Z consumers. Now, they want to build longevity.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Technology</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/05.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">August 2, 2022</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Thins to know before visiting
+                        Cave in Germany
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Fashion</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/06.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">December 28, 2023</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Sustainable fashion: The year in review
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>From movements in regulation to the rise of Shein, sustainable fashion made strides and
+                        suffered setbacks in 2023.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Adventure</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/07.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">April 3, 2022</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Six of the best adventures in New Zealand, from bouldering to bungy jumps
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Whether you prefer a stomach-dropping free fall or a calf-burning rock ascent, New Zealand has
+                        no shortage of hair-raising adventures for those with a head for heights.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Travel</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/08.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">August 8, 2022</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        How clean is the air on planes?
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>How do you measure pandemic pessimism among travelers? The evidence is in the air—or not in the
+                        air, to be precise.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="popular__tab">
+                <div class="popular__items">
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Technology</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/02.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">August 11, 2023</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Robot trained to read braille at twice the speed of humans
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Researchers have developed a robotic sensor that incorporates artificial intelligence
+                        techniques to read braille at speeds roughly double that of most human readers.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Technology</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/05.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">August 2, 2022</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Thins to know before visiting
+                        Cave in Germany
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Progressively incentivize cooperative systems through
+                        technically sound functionalities. Credibly productivate
+                        seamless data with flexible schemas.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="popular__tab">
+                <div class="popular__items">
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Adventure</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/03.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">May 04, 2022</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Six of the best adventures in New Zealand, from bouldering to bungy jumps
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Whether you prefer a stomach-dropping free fall or a calf-burning rock ascent, New Zealand has
+                        no shortage of hair-raising adventures for those with a head for heights.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Adventure</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/07.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">April 3, 2022</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Six of the best adventures in New Zealand, from bouldering to bungy jumps
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Whether you prefer a stomach-dropping free fall or a calf-burning rock ascent, New Zealand has
+                        no shortage of hair-raising adventures for those with a head for heights.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="popular__tab">
+                <div class="popular__items">
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Travel</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/01.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">June 14, 2021</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Extreme adventure at the edge of the word: sail and ski in Norway
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>There are few more thrilling places to ski tour than the Lyngen Alps, a 55-mile chain of peaks
+                        that punctuates Norway’s fragmented northerly fringes.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Travel</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/08.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">August 8, 2022</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        How clean is the air on planes?
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>How do you measure pandemic pessimism among travelers? The evidence is in the air—or not in the
+                        air, to be precise.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="popular__tab">
+                <div class="popular__items">
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Fashion</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/04.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">September 29, 2023</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Refy cracked TikTok beauty. Next up — fashion
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>Through TikTok, Jess Hunt and Jenna Meek catapulted their beauty brand into the consciousness
+                        of Gen Z consumers. Now, they want to build longevity.</p>
+                    </div>
+                  </article>
+                  <article data-item class="popular__item item-popular">
+                    <a href="#" class="item-popular__category category">Fashion</a>
+                    <a href="#" class="item-popular__image">
+                      <img src="images/popular/06.jpg" alt="popular-image" />
+                    </a>
+                    <div class="item-popular__date">December 28, 2023</div>
+                    <h4 class="item-popular__title">
+                      <a href="#" class="item-popular__link-title">
+                        Sustainable fashion: The year in review
+                      </a>
+                    </h4>
+                    <div class="item-popular__text text">
+                      <p>From movements in regulation to the rise of Shein, sustainable fashion made strides and
+                        suffered setbacks in 2023.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home__big-post big-post">
+          <div class="big-post__container">
+            <a data-item href="#" class="big-post__category category">Travel</a>
+            <h2 data-item class="big-post___title title">
+              <a href="#" class="big-post__link-title">
+                The 11 Best Places to Travel in 2024
+              </a>
+            </h2>
+            <div data-item class="big-post__text text">
+              <p>Looking for the best places to travel in 2024? At Vogue, we are too—and constantly at that: on any
+                given day, our editors are consulting with industry experts, tracking hotel openings, tasking the
+                thoughts of tastemakers, and venturing to explore various corners of the globe.</p>
+            </div>
+            <a data-item href="#" class="big-post___author">
+              By John Goodwin
+            </a>
+          </div>
+          <div class="big-post___bg">
+            <img src="images/big-post/image.jpg" alt="post-image" />
+          </div>
+        </section>
+      </div>
+      <section class="home__related related">
+        <div class="related__container">
+          <h2 data-item class="related__title title title_dark">Related Posts</h2>
+          <div class="related__items">
+            <article data-item class="related__item item-related">
+              <a href="#" class="item-related__category category">Fashion</a>
+              <a href="#" class="item-related__content">
+                <div class="item-related__date">September 9, 2022</div>
+                <h4 class="item-related__title">What Is Deinfluencing? Unpacking TikTok’s Unlikeliest Shopping Trend
+                </h4>
+                <div class="item-related__text text">
+                  <p>In an era dominated by microtrends, the gravitational pull toward hyper-consumerism can feel
+                    unavoidable.</p>
+                </div>
+              </a>
+              <div class="item-related__image">
+                <img src="images/related/01.jpg" alt="related-image" />
+              </div>
+            </article>
+            <article data-item class="related__item item-related">
+              <a href="#" class="item-related__category category">Fashion</a>
+              <a href="#" class="item-related__content">
+                <div class="item-related__date">December 23, 2023</div>
+                <h4 class="item-related__title">30 Items That Dominated Our Shopping Carts in 2023</h4>
+                <div class="item-related__text text">
+                  <p>As the year draws to a close, it’s only natural to mull over the major highlights of 2023.</p>
+                </div>
+              </a>
+              <div class="item-related__image">
+                <img src="images/related/02.jpg" alt="related-image" />
+              </div>
+            </article>
+            <article data-item class="related__item item-related">
+              <a href="#" class="item-related__category category">Fashion</a>
+              <a href="#" class="item-related__content">
+                <div class="item-related__date">October 30, 2023</div>
+                <h4 class="item-related__title">The 24 Best Crossbody Bags to Sport This Winter</h4>
+                <div class="item-related__text text">
+                  <p>Among the more sought-after qualities when investing in a new handbag is its keen ability to polish
+                    off an outfit.</p>
+                </div>
+              </a>
+              <div class="item-related__image">
+                <img src="images/related/03.jpg" alt="related-image" />
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__text"></div>
+        <button class="footer__up" type="button">Up</button>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./script/index.js"></script>
+</body>
+
+</html>
