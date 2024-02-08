@@ -1,0 +1,266 @@
+.home__sections {
+  display: grid;
+  gap: 100px;
+}
+
+@media (max-width: 991.98px) {
+  .home__sections {
+    gap: 70px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .home__sections {
+    gap: 40px;
+  }
+}
+
+.main-slider {
+  min-width: 0;
+}
+
+.main-slider__wrapper {
+  display: flex;
+}
+
+.main-slider__slide {
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--slider-bg-color);
+}
+
+.main-slider__bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.main-slider__container {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 140px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 15px;
+  z-index: 0;
+}
+
+.main-slider__title {
+  max-width: 530px;
+}
+
+.main-slider__body {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  color: var(--general-color);
+}
+
+.main__slider__date {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  line-height: 125%;
+}
+
+.main__slider__date::after {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background-color: var(--date-bg-color);
+}
+
+.main-slider__text {
+  max-width: 420px;
+}
+
+.bullets {
+  position: relative;
+  margin-top: -140px;
+  z-index: 1;
+}
+
+.bullets__items {
+  display: flex;
+  height: 140px;
+  align-items: center;
+  gap: 10px;
+}
+
+.bullets__items .swiper-pagination-bullet {
+  flex: 0 0 8px;
+  height: 8px;
+  border-radius: 50%;
+  opacity: 0.2;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  background-color: var(--general-color);
+}
+
+.bullets__items .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+@media (max-width: 479.98px) {
+  .bullets__items {
+    justify-content: center;
+  }
+}
+
+.main-slider__category,
+.main-slider__title,
+.main-slider__body {
+  transform: translate(0px, 50px);
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.loaded .main-slider__category {
+  transition-delay: 0.3s;
+}
+
+.loaded .main-slider__title {
+  transition-delay: 0.5s;
+}
+
+.loaded .main-slider__body {
+  transition-delay: 0.7s;
+}
+
+.loaded .main-slider__category,
+.loaded .main-slider__title,
+.loaded .main-slider__body {
+  transform: translate(0, 0);
+  opacity: 1;
+}
+
+.popular__header {
+  display: flex;
+  margin-bottom: 45px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-popular {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+  column-gap: 20px;
+}
+
+.nav-popular__item {
+  position: relative;
+  font-weight: var(--medium-font-weight);
+  line-height: 1.5;
+}
+
+.nav-popular__item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  transition: all 0.3s;
+  background-color: var(--link-bottom-color);
+}
+
+.nav-popular__item.active::after,
+.nav-popular__item:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.popular__tab {
+  display: none;
+}
+
+.popular__tab.active {
+  display: block;
+}
+
+.popular__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  column-gap: 20px;
+  row-gap: 50px;
+}
+
+.item-popular {
+  display: grid;
+  position: relative;
+  align-content: start;
+  gap: 15px;
+}
+
+.item-popular__category {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1;
+  color: var(--item-popular-color);
+  background-color: var(--link-bottom-color);
+}
+
+.item-popular__image {
+  position: relative;
+  padding-bottom: 90%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.item-popular__image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  transition: transform 0.8s;
+}
+
+.item-popular__image:hover img {
+  transform: scale(1.05);
+}
+
+.item-popular__date {
+  font-size: 12px;
+  line-height: 125%;
+  color: var(--item-date-color);
+}
+
+.item-popular__title {
+  font-size: 18px;
+  font-weight: var(--medium-font-weight);
+  line-height: 138%;
+}
+
+.item-popular__link-title:hover {
+  text-decoration: underline;
+}
+
+.item-popular__text {
+  color: var(--item-text-color);
+}
+
+@media (max-width: 767.98px) {
+  .popular__header {
+    margin-bottom: 25px;
+    flex-direction: column;
+  }
+
+  .popular__items {
+    row-gap: 30px;
+  }
+}
