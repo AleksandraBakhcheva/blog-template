@@ -4,8 +4,10 @@ Template of minimalistic blog in simple html using swiper showing popular articl
 
 ## Screens
 
-<img width="621" alt="desktop" src="gifs/desktop.gif">
-<img width="195" alt="mobile" src="gifs/mobile.gif">
+<p>
+  <img width="621" alt="desktop" src="gifs/desktop.gif">
+  <img width="195" alt="mobile" src="gifs/mobile.gif">
+</p>
 
 ## Stack
 
