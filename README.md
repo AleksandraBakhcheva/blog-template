@@ -2,7 +2,7 @@
 
 Template of minimalistic blog in simple html using swiper showing popular articles per theme
 
-## Screens
+## Video
 
 <p>
   <img width="621" alt="desktop" src="gifs/desktop.gif">
