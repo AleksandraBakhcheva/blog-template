@@ -1,0 +1,22 @@
+.footer {
+  padding: 30px 0;
+  background: var(--footer-bg-color);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  color: var(--footer-color);
+}
+
+.footer__text,
+.footer__up {
+  font-weight: var(--medium-font-weight);
+  text-transform: uppercase;
+}
+
+.footer__up:hover {
+  text-decoration: underline;
+}
