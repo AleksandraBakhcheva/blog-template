@@ -1,0 +1,139 @@
+.article__content {
+  padding: 100px 0;
+}
+
+.article__container {
+  display: grid;
+  grid-template-columns: 200px 1fr 200px;
+  align-items: start;
+  gap: 20px;
+}
+
+.article__info {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 12px;
+  line-height: 208.33%;
+  font-weight: var(--medium-font-weight);
+}
+
+.article__date {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.article__date::after {
+  content: "";
+  width: 35px;
+  height: 1px;
+  background-color: var(--date-bg-color);
+}
+
+.article__body {
+  display: grid;
+  gap: 50px;
+}
+
+.artilce__text {
+  display: grid;
+  gap: 30px;
+  line-height: 178%;
+}
+
+.artilce__text blockquote {
+  font-size: 36px;
+  line-height: 127%;
+  font-weight: var(--medium-font-weight);
+  color: var(--blockquote-color);
+}
+
+.article__tags {
+  display: flex;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
+  border-bottom: 0.5px solid var(--date-bg-color);
+  gap: 12px;
+}
+
+.article__tag {
+  border: 1px solid var(--article-tag-bg-color);
+  color: var(--article-tag-color);
+}
+
+.article__tag:hover {
+  background-color: var(--article-tag-bg-color);
+}
+
+.author {
+  display: flex;
+  gap: 17px;
+}
+
+.author__avatar {
+  flex: 0 0 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.author__avatar img {
+  width: 50px;
+}
+
+.author__body {
+  display: grid;
+  align-self: center;
+  font-size: 12px;
+  gap: 8px;
+}
+
+.author__title {
+  font-weight: var(--medium-font-weight);
+  color: var(--author-title-color);
+}
+
+.author__skills {
+  color: var(--author-skills-color);
+}
+
+@media (max-width: 991.98px) {
+  .article__content {
+    padding: 70px 0;
+  }
+
+  .article__container {
+    grid-template-columns: 200px 1fr;
+  }
+
+  .article__body {
+    gap: 30px;
+  }
+
+  .article__tags {
+    padding-bottom: 30px;
+  }
+
+  .article__text {
+    gap: 15px;
+  }
+
+  .article__text blockquote {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .article__content {
+    padding: 40px 0;
+  }
+
+  .article__container {
+    grid-template-columns: auto;
+  }
+}
+
+.article__related {
+  background-color: var(--article-related-bg-color);
+}
