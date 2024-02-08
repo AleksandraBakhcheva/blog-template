@@ -1,0 +1,30 @@
+:root {
+  /* colors */
+  --body-main-color: #495057;
+  --body-main-bg-color: #f8f9fa;
+  --header-bg-color: #00000033;
+  --general-color: #ffffff;
+  --link-bottom-color: #d4a373;
+  --date-bg-color: #c4c4c4;
+  --slider-bg-color: #343a40;
+  --item-popular-color: #000000;
+  --item-date-color: #414343;
+  --item-text-color: #3f5464;
+  --category-bg-color: #ffffff26;
+  --category-bg-color-hover: #ffffff80;
+  --article-tag-color: #6c757d;
+  --article-tag-bg-color: #e5e5e5;
+  --item-related-color: #e6e6e6;
+  --article-related-bg-color: #e5e5e54d;
+  --big-post-text-color: #f3efef;
+  --blockquote-color: #cf741999;
+  --author-title-color: #2e343b;
+  --author-skills-color: #66727c;
+  --footer-bg-color: #343a41;
+  --footer-color: #ece9e9;
+
+  /* fonts */
+  --roboto-font-family: Roboto, sans-serif;
+  --lora-font-family: Lora, serif;
+  --medium-font-weight: 700;
+}
