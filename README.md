@@ -4,7 +4,8 @@ Template of minimalistic blog in simple html using swiper showing popular articl
 
 ## Screens
 
-<img width="195" src="https://github.com/AleksandraBakhcheva/blog-template/assets/76097160/e4efd3e7-6e0d-4d32-8b67-4e7bbf8b6d32" alt="mobile"/>
+<img width="621" alt="desktop" src="gifs/desktop.gif">
+<img width="195" alt="mobile" src="gifs/mobile.gif">
 
 ## Stack
 
