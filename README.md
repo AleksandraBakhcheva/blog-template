@@ -1,27 +1,21 @@
 # Blog draft
+Minimalistic blog 🔽
 
-Template of minimalistic blog in simple html using swiper showing popular articles per theme
+## Description
+Template of minimalistic blog using swiper showing popular articles per theme.
 
-## Video
+## Video screens
+<img width="621" alt="desktop" src="gifs/desktop.gif"> <img width="195" alt="mobile" src="gifs/mobile.gif">
 
-<p>
-  <img width="621" alt="desktop" src="gifs/desktop.gif">
-  <img width="195" alt="mobile" src="gifs/mobile.gif">
-</p>
-
-## Stack
-
+## Technology stack
+- JavaScript
 - HTML5
 - CSS3
-- JavaScript
 - Swiper
 - Figma
 
-## Project demo
-
-<a target="_blank" href="https://aleksandrabakhcheva.github.io/blog-template/">Click Demo</a>
-
 ## Author
+[@Aleksandra Bakhcheva](https://github.com/AleksandraBakhcheva)
 
-Aleksandra Bakhcheva<br>
-[@AleksandraBakhcheva](https://github.com/AleksandraBakhcheva)
+## Project demo
+<a href="https://aleksandrabakhcheva.github.io/blog-template/">Click Demo</a>
